@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 
 export default function Contact() {
   return (
@@ -21,7 +20,7 @@ export default function Contact() {
               className="space-y-8"
             >
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
-                Let's speak as developers to developers on how you can create your own blockchain infrastructure and significantly reduce costs
+                Let&apos;s speak as developers to developers on how you can create your own blockchain infrastructure and significantly reduce costs
               </h2>
               
               <div className="flex flex-col sm:flex-row gap-4">
