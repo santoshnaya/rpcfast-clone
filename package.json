@@ -1,12 +1,39 @@
 {
-  "name": "webflow-32-rpc",
-  "version": "0.1.0",
-  "private": true,
+  "name": "rpcfast-clone",
+  "version": "1.0.0",
+  "description": "A pixel-perfect, front-end-only clone of the RPC Fast Webflow site, built with Next.js, TypeScript, and Tailwind CSS. Features responsive design, smooth animations, and modern UI components.",
+  "keywords": [
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "framer-motion",
+    "rpc",
+    "blockchain",
+    "webflow-clone",
+    "responsive-design",
+    "frontend"
+  ],
+  "author": "santoshnaya",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santoshnaya/rpcfast-clone.git"
+  },
+  "homepage": "https://github.com/santoshnaya/rpcfast-clone#readme",
+  "bugs": {
+    "url": "https://github.com/santoshnaya/rpcfast-clone/issues"
+  },
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "framer-motion": "^12.18.1",
